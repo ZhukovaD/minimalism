@@ -1,0 +1,15 @@
+:root {
+
+    /*COLORS*/
+    --base-color:#d22425;
+    --title-color:#333333;
+    --subtitle-color:#717171;
+    --text-color:#898f9f;
+    --gray:#dbdbdb;
+    --light-gray:#fafafa;
+
+    /*TYPOGRAPHY*/
+    --base-font: NunitoSans, Arial, sans-serif;
+    --main-banner-font-black: NunitoSansBlack, Arial, sans-serif;
+    --title-font:PlayfairDisplay, Georgia, serif;
+}

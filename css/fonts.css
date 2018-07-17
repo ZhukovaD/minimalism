@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "NunitoSans";
+    font-style: normal;
+    src: local("NunitoSans"),
+    url("../fonts/NunitoSans.woff") format("woff")
+}
+
+@font-face {
+    font-family: "NunitoSansBlack";
+    font-style: normal;
+    src: local("NunitoSans"),
+    url("../fonts/NunitoSans-Black.woff") format("woff")
+}
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    font-style: normal;
+    src: url("../fonts/PlayfairDisplay.woff") format("woff")
+}

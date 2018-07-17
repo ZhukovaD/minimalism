@@ -1,0 +1,37 @@
+.contacts{
+    height: 700px;
+}
+
+.contacts__title{
+    font-family: var(--title-font);
+    color: var(--title-color);
+    text-transform: capitalize;
+    font-size: 60px;
+}
+
+.contacts__description{
+    width: 300px;
+    font-size: 17px;
+    color: var(--text-color);
+    line-height: 25px;
+}
+
+.contacts__form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__left{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__input{
+    border:none;
+    border-bottom: solid 1px var(--title-color);
+}
+
+.contacts__input:focus{
+    outline: none;
+    border-bottom: solid 1px var(--base-color);
+}

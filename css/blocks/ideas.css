@@ -1,0 +1,23 @@
+.ideas{
+    height: 1000px;
+}
+
+.ideas__title{
+    font-family: var(--title-font);
+    color: var(--title-color);
+    text-transform: capitalize;
+    font-size: 60px;
+}
+
+.ideas__subtitle{
+    font-size: 17px;
+    color: var(--title-color);
+    text-transform: uppercase;
+}
+
+.ideas__text{
+    font-size: 17px;
+    color: var(--text-color);
+    line-height: 25px;
+    columns: 2;
+}

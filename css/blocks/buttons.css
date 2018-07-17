@@ -1,0 +1,17 @@
+.button {
+    border:solid 1px var(--gray);
+    background: none;
+    cursor: pointer;
+    background-color: #ffffff;
+    font-family: var(--base-font);
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--base-color);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 150px;
+    padding: 15px;
+    letter-spacing: 0.1em;
+}

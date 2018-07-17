@@ -1,0 +1,9 @@
+.page-footer{
+    height: 170px;
+    border-top: solid 1px var(--gray);
+    display: flex;
+}
+
+.page-footer__like{
+    margin: auto;
+}
