@@ -1,5 +1,7 @@
 .contacts{
-    height: 700px;
+    min-height: 640px;
+    border:solid 1px blueviolet;
+    padding: 136px 15px 80px 15px;
 }
 
 .contacts__title{
@@ -7,6 +9,7 @@
     color: var(--title-color);
     text-transform: capitalize;
     font-size: 60px;
+    padding-bottom: 34px;
 }
 
 .contacts__description{
@@ -19,6 +22,9 @@
 .contacts__form{
     display: flex;
     justify-content: space-between;
+    border:solid 1px red;
+    margin-top: 55px;
+    padding: 10px 0 0 130px;
 }
 
 .contacts__left{
@@ -29,9 +35,67 @@
 .contacts__input{
     border:none;
     border-bottom: solid 1px var(--title-color);
+    margin-bottom: 47px;
+    width: 400px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-family: var(--base-font);
+}
+
+.contacts__input:hover{
+    border-bottom: solid 1px var(--base-color);
 }
 
 .contacts__input:focus{
     outline: none;
     border-bottom: solid 1px var(--base-color);
+}
+
+.contacts__input::placeholder{
+    color: var(--gray);
+    padding-left: 23px;
+}
+
+.input__optional{
+   position: relative;
+}
+
+.contacts__add-label{
+    color: #d3d3d3;
+    position: absolute;
+    right: 0;
+    font-size: 17px;
+    font-family: var(--base-font);
+}
+
+.contacts__message{
+    margin-right: 0;
+    border:none;
+    border-bottom: solid 1px var(--title-color);
+    margin-bottom: 47px;
+    width: 550px;
+    padding-bottom: 34px;
+}
+
+.contacts__message::placeholder{
+    font-size: 17px;
+    font-family: var(--base-font);
+    color: var(--gray);
+    padding-left: 23px;
+}
+
+.contacts__right{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__form-submit{
+    display: block;
+    align-self: flex-end;
+    margin-top: 10px;
+    color:#ffffff;
+    background-color: var(--base-color);
+    border:none;
+    width: 128px;
+    text-transform: uppercase;
 }

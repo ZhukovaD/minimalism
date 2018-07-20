@@ -1,16 +1,14 @@
 .about{
     border:solid 1px green;
     display: flex;
-    padding-top: 144px;
     min-height: 600px;
-    padding-bottom: 80px;
+    padding: 144px 15px 80px 15px;
 }
 
 .about__left{
     width: 530px;
     margin-right: 154px;
     margin-top: 46px;
-    padding-left: 15px;
 }
 
 .about__title{

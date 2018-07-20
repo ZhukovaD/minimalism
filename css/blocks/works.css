@@ -1,0 +1,20 @@
+.works{
+    min-height: 600px;
+    padding: 230px 15px 80px 15px;
+    border:solid 1px deeppink;
+}
+
+.works__title{
+    font-family: var(--title-font);
+    color: var(--title-color);
+    text-transform: capitalize;
+    font-size: 60px;
+    padding-bottom: 105px;
+}
+
+.works__visit-button{
+    text-transform: uppercase;
+    padding: 0;
+    width: 150px;
+    border:none;
+}

@@ -1,0 +1,41 @@
+.carousel{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 26px;
+}
+
+.carousel__item{
+    width: 33.333%;
+    margin-right: 5px;
+}
+
+.carousel__item:first-child{
+    padding: 7px;
+    border: solid 1px var(--gray);
+    width: 312px;
+}
+
+.carousel__img {
+   vertical-align: bottom;
+}
+
+.carousel__title{
+    font-family: var(--title-font);
+    color: var(--title-color);
+    text-transform: capitalize;
+    font-size: 35px;
+    padding: 31px 0 30px 0;
+    line-height: 42px;
+}
+
+.carousel__description{
+    font-size: 14px;
+    font-family: var(--base-font);
+    color: var(--text-color);
+    line-height: 22px;
+}
+
+.contacts__form-submit{
+    align-self: right;
+}

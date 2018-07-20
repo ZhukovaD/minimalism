@@ -8,7 +8,7 @@
 </head>
 
 <body>
-<main>
+<main class="page-main">
     <section class="main-banner">
         <img class="main-banner__logo" src="img/logo.png" height="30" width="138">
         <div class="main-banner__text-wrapper">
@@ -49,18 +49,19 @@
     </section>
 
     <section class="ideas">
-        <h2 class="ideas__title">Innovate ideas</h2>
+        <h2 class="ideas__title">Innovative ideas</h2>
         <!--<p class="ideas__light-text">innovate thinking</p>-->
         <p class="ideas__subtitle">Clean Website Designs for Inspiration</p>
+        <div class="ideas__wrapper">
         <div class="ideas__left">
         <p class="ideas__text">
             Fantastic Clean Website Designs for Inspiration. Selection of Awards winning clean
             websites or websites with and strong use of clean design. It is usually associated with ab concepts
             and emotions such as elegance.<br><br>Selection of Awards winning clean websites or ant websites with
             a strong use of clean design. It is usually yeh associated with concepts and emotions such as
-            the elegancei. Fantastic Clean Website Designs for Inspirations. Selection of Awards winning clean
-            websites aud or websites with a strong use of clean design.<br><br>It is usually associated with concepts
-            and emoi tions such as elegance.Fantastic Clean Website Designs for Inspiration. Selection of Awards
+            the elegancei. Fantastic Clean Website Designs for Inspirations. <br><br>Selection of Awards winning clean
+            websites aud or websites with a strong use of clean design. It is usually associated with concepts
+            <br><br>and emoitions such as elegance.Fantastic Clean Website Designs for Inspiration. Selection of Awards
             winning clean websites or websites with and strong use of clean design. It is usually associated with
             ab concepts and emotions such as elegance.<br><br>Selection of Awards winning clean websites or ant websites with
             a strong use of clean design. It is usually yeh associated with concepts and emotions such as
@@ -70,27 +71,28 @@
         </p>
         <a class="button ideas__visit-button" href="#">visit blog</a>
         </div>
-        <!--<div class="ideas__right">-->
-            <!--<h2 class="ideas__title ideas__title&#45;&#45;transform">Great design</h2>-->
-            <!--<p class="ideas__subtitle ideas__subtitle&#45;&#45;transform">is innovate</p>-->
-            <!--<img src="img/innovate-ideas-img.png">-->
-        <!--</div>-->
+        <div class="ideas__right">
+            <h2 class="ideas__title ideas__title--transform">Great design</h2>
+            <p class="ideas__subtitle ideas__subtitle--transform">is innovate</p>
+            <img class="ideas__img" src="img/innovate-ideas-img.png">
+        </div>
+        </div>
     </section>
 
     <section class="works">
         <h2 class="works__title">Resent works</h2>
-        <p class="works__light-text">some design</p>
+        <!--<p class="works__light-text">some design</p>-->
         <ul class="works__carousel carousel">
             <li class="carousel__item carousel__item--test">
-                <h3 class="carousel__title">Innovate design</h3>
+                <h3 class="carousel__title">Innovative <br>design</h3>
                 <p class="carousel__description">Selection of Award winning clean are de websites or andi websites
                     with a strong use of clean design.</p>
             </li>
             <li class="carousel__item">
-               <img src="img/works-block-2.png" alt="Our work 1">
+               <img class="carousel__img" src="img/works-block-2.png" alt="Our work 1">
             </li>
             <li class="carousel__item">
-                <img src="img/works-block-3.png" alt="Our work 2">
+                <img class="carousel__img" src="img/works-block-3.png" alt="Our work 2">
             </li>
         </ul>
         <a class="button works__visit-button" href="#">visit portfolio</a>
@@ -104,9 +106,11 @@
         <form class="contacts__form">
             <div class="contacts__left">
                 <input class="contacts__input" type="text" name="username" placeholder="Full name" autocomplete="on" required>
-                <input class="contacts__input" type="email" name="e-mail" placeholder="E-mail" autocomplete="on" required>
-                <span class="contacts__label contact__label--optional">Optional</span>
+                <input class="contacts__input contacts__input--optional" type="email" name="e-mail" placeholder="E-mail" autocomplete="on" required>
+                <div class="input__optional">
+                <span class="contacts__add-label">Optional</span>
                 <input class="contacts__input" type="tel" name="tel" autocomplete="off" placeholder="Phone number (+240 ...)">
+                </div>
             </div>
             <div class="contacts__right">
                 <textarea class="contacts__message" name="massage" rows="10" placeholder="Your massage..."></textarea>
@@ -118,10 +122,10 @@
 
 <footer class="page-footer">
     <button class="page-footer__like">
-        <img src="img/footer-like.png">
+        <img class="page-footer__like-img" src="img/footer-like.png">
         <span class="visually-hidden">Like us!</span>
     </button>
-    <!--<img src="img/footer-splash.png">-->
+    <img class="page-footer__img" src="img/footer-splash.png">
 </footer>
 
 </body>

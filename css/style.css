@@ -4,9 +4,14 @@
 @import "blocks/buttons.css";
 @import "base.css";
 
-@import "blocks/page-header.css";
+@import "blocks/page-main.css";
+
 @import "blocks/main-banner.css";
 @import "blocks/about.css";
 @import "blocks/ideas.css";
 @import "blocks/contacts.css";
+@import "blocks/page-footer.css";
+@import "blocks/works.css";
+@import "blocks/carousel.css";
+
 @import "blocks/page-footer.css";

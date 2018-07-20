@@ -1,9 +1,36 @@
 .page-footer{
-    height: 170px;
-    border-top: solid 1px var(--gray);
+    flex: 0 0 auto;
+    height: 150px;
     display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 .page-footer__like{
     margin: auto;
+    border:none;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.page-footer__like-img{
+    vertical-align: bottom;
+}
+
+.page-footer__like:focus{
+    outline: none;
+    box-shadow: 0 0 30px var(--base-color);
+}
+
+.page-footer__img{
+   position: absolute;
+
+}
+
+.page-footer__img{
+    position: absolute;
+    bottom: -17px;
+    left: -358px;
 }
